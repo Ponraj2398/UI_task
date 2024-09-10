@@ -64,31 +64,25 @@ const UI = () => {
                 </div>
             </div>
             <div className="card">
-                {/* <div className="first-card">
-                  <img src={img8} alt="NA" className="img8" />
-                  <p>hotspots</p>
-                  <p>Luxury hotspots: 5 most expensive high streets in the..</p>
-                </div> */}
-                {/* <Container> */}
                 <Row>
-                    <Col md={4}>
+                    <Col md={4} className="card-col">
                         <img src={img8} alt="NA" className="img8" />
                         <span className="card-header">HOTSPOTS</span>
-                        <span className="card-text">Luxury hotspots: 5 most expensive high streets in the..</span>
+                        <span className="card-text">Luxury hotspots: 5 most expensive high streets in the...</span>
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className="card-col">
                         <img src={img9} alt="NA" className="img9" />
                         <span className="card-header">AI</span>
                         <span className="card-text">5 ways to leverage the power of ChatGPT in retail</span>
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className="card-col">
                         <img src={img10} alt="NA" className="img10" />
                         <span className="card-header">SHIPPING</span>
                         <span className="card-text">Reliance to open 250 Azorte stores in 2-3 years</span>
                     </Col>
                 </Row>
-                {/* </Container> */}
             </div>
+
             <div className="news">
                 {/* <Container> */}
                 <Row>
@@ -142,22 +136,20 @@ const UI = () => {
                         <img src={img11} alt="NA" className="web-img" />
                     </Col>
                     <Col md={4}>
-
                         <div className="second-web-col">
                             <ul>
                                 <li className="second-web-text">Cinema industry welcomes lowering GST rates</li>
                                 <li className="second-web-text">Patanjali Ayurved to sell 7% stake in Patanjali</li>
                                 <li className="second-web-text">Select Citywalk opens 4 new stores in June</li>
-                                <li className="second-web-text">Govt imposes import restrictions on certain gold </li>
+                                <li className="second-web-text">Govt imposes import restrictions on certain gold</li>
                                 <li className="second-web-text">Joom Marketplace offers a global window for sellers</li>
                             </ul>
                         </div>
                     </Col>
-                    <Col md={4}>
-                        <p className="text-center">- Advertisement -</p>
+                    <Col md={4} className="text-center">
+                        <p>- Advertisement -</p>
                         <img src={img17} alt="NA" className="img17" />
                     </Col>
-
                 </Row>
                 <Row>
                     <Col md={9}>
@@ -165,14 +157,13 @@ const UI = () => {
                             <li className="second-web-text1">B2B managed marketplace The Yarn</li>
                             <li className="second-web-text1">Sequoia Capital exits Go Fashion</li>
                             <li className="second-web-text1">B2B managed marketplace The Yarn</li>
-                            <li className="second-web-text1">Sequoia Capital exits Go
-                                Fashion</li>
+                            <li className="second-web-text1">Sequoia Capital exits Go Fashion</li>
                         </ul>
                     </Col>
-                    <Col md={3}>
-                    </Col>
+                    <Col md={3}></Col>
                 </Row>
             </div>
+
             <div className="img-card">
                 <Container>
                     <Row>
