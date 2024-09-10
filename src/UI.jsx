@@ -31,8 +31,10 @@ const UI = () => {
             <div style={{ width: '1450px', height: '388px' }}>
                 <div><img src={img1} width={'970px'} height={'250px'} style={{ left: '240px' }} alt="Not found" /></div>
                 <div className="d-flex justify-content-between align-items-center">
-                    <span className="text-start" style={{ left: '20px', position: 'relative' }}><img src={searchimg} className="searchimg" alt="NA" />&nbsp;
-                        <span className="img3">Search here...</span></span>
+                    <div className="text-start" style={{ left: '20px', position: 'relative' }}>
+                        <img src={searchimg} className="searchimg" alt="NA" />&nbsp;
+                        <span className="img3">Search here...</span>
+                    </div>
                     <img src={img4} className="img4" alt="NA" />
                     <div>
                     <Button variant="danger" className="subscribe-btn">SUBSCRIBE</Button>&nbsp;
@@ -46,13 +48,13 @@ const UI = () => {
                     <span style={{ left: '50px', position: 'relative' }}><img src={img6} className="img6" alt="NA" /></span>
                     {/* <div className="topbar-items"> */}
                     <ul className="topbar-ul">
-                        <a href="/" className="menu-list active"><li>Home</li></a>
-                        <a href="/" className="menu-list"><li>Categories</li></a>
-                        <a href="/" className="menu-list"><li>IR Prime</li></a>
-                        <a href="/" className="menu-list"><li>Events</li></a>
-                        <a href="/" className="menu-list"><li>Bookstore</li></a>
-                        <a href="/" className="menu-list"><li>Newsletter</li></a>
-                        <a href="/" className="menu-list"><li>Video</li></a>
+                        <li className="menu-list"><a href="/" className="menu-list active">Home</a></li>
+                        <li className="menu-list"><a href="/" className="menu-list">Categories</a></li>
+                        <li className="menu-list"><a href="/" className="menu-list">IR Prime</a></li>
+                        <li className="menu-list"><a href="/" className="menu-list">Events</a></li>
+                        <li className="menu-list"><a href="/" className="menu-list">Bookstore</a></li>
+                        <li className="menu-list"><a href="/" className="menu-list">Newsletter</a></li>
+                        <li className="menu-list"><a href="/" className="menu-list">Video</a></li>
                     </ul>
                     {/* </div> */}
                     <div><img src={img7} className="img7" alt="NA" /><span className="date">Friday, 30 June 2023</span></div>
