@@ -43,7 +43,6 @@
   width: 14.32px;
   height: 14.12px;
   gap: 0px;
-  opacity: 0px;
   font-family: Font Awesome 6 Pro;
   font-size: 13.11px;
   font-weight: 300;
@@ -59,8 +58,6 @@
   height: 16.14px;
   top: 310.39px;
   left: 60.71px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Roboto;
   font-size: 14.12px;
   font-weight: 400;
@@ -84,8 +81,6 @@
   height: 76.23px;
   top: 275px;
   left: 583.25px;
-  gap: 0px;
-  opacity: 0px;
 
 }
 
@@ -94,8 +89,6 @@
   height: 34.19px;
   top: 298.36px;
   left: 1241.66px;
-  gap: 0px;
-  opacity: 0px;
   border: 0.67px solid #ECECEC
 }
 
@@ -104,21 +97,19 @@
   height: 18.05px;
   top: 22.98px;
   left: 39.98px;
-  gap: 0px;
-  opacity: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.img6 {
+.menu-icon {
   width: 22.9px;
   height: 18.01px;
   top: 41.01px;
   left: 39.98px;
   gap: 0px;
-  opacity: 0px;
   color: #111111;
+  
 }
 
 
@@ -129,7 +120,6 @@
   top: 24.5px;
   left: 402px;
   gap: 0px;
-  opacity: 0px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -147,8 +137,6 @@
   height: 18.05px;
   top: 22.98px;
   left: 1238.19px;
-  gap: 0px;
-  opacity: 0px;
   color: #616161;
 
 }
@@ -158,8 +146,6 @@
   height: 18.05px;
   top: 22.98px;
   left: 1265.53px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Lato;
   font-size: 15.79px;
   font-weight: 400;
@@ -176,7 +162,6 @@
   position: relative;
   /* left: 228.5px; */
   gap: 12px;
-  opacity: 0px;
 
 }
 
@@ -252,8 +237,6 @@
   top: 100px;
   position: relative;
   left: 36.21px;
-  gap: 0px;
-  opacity: 0px;
   border: 0.76px solid #DCDCDC;
 }
 
@@ -264,7 +247,6 @@
   left: 36.21px;
   gap: 0px;
   border-radius: 5.64px 0px 0px 0px;
-  opacity: 0px;
 
 }
 
@@ -275,9 +257,7 @@
   /* top: 1068.6px; */
   /* position: ; */
   /* left: 0px; */
-  gap: 0px;
   border-radius: 6.96px 0px 0px 0px;
-  opacity: 0px;
 
 }
 
@@ -288,7 +268,6 @@
   /* left: 38.03px; */
   gap: 0px;
   border-radius: 6.96px 0px 0px 0px;
-  opacity: 0px;
 
 }
 
@@ -301,7 +280,6 @@
   /* padding: 0px; */
   gap: 0px;
   border-radius: 6.96px 0px 0px 0px;
-  opacity: 0px;
 
 }
 
@@ -316,7 +294,6 @@
   top: 1102.17px;
   left: 203.25px;
   gap: 0px;
-  opacity: 0px;
 
 }
 
@@ -326,7 +303,6 @@
   top: 1072.07px;
   left: 205.91px;
   gap: 0px;
-  opacity: 0px;
   font-family: Roboto;
   font-size: 11.1px;
   font-weight: 600;
@@ -346,7 +322,6 @@
   top: 1140.96px;
   left: 207.36px;
   gap: 0px;
-  opacity: 0px;
   color: #121212;
 
 }
@@ -357,7 +332,6 @@
   top: 686.23px;
   left: 680.29px;
   gap: 0px;
-  opacity: 0px;
   font-family: Roboto;
   font-size: 20.12px;
   font-weight: 500;
@@ -374,7 +348,6 @@
   left: 660.21px;
   gap: 0px;
   border-radius: 7.88px 0px 0px 0px;
-  opacity: 0px;
 
 }
 
@@ -389,7 +362,6 @@
   top: 953.19px;
   left: 680.29px;
   gap: 0px;
-  opacity: 0px;
 
 }
 
@@ -401,7 +373,6 @@
   /* padding: 185.22px 215.61px 0px 8.06px; */
   gap: 0px;
   border-radius: 7.88px 0px 0px 0px;
-  opacity: 0px;
 
 }
 
@@ -475,7 +446,6 @@
   position: relative;
   height: 280px;
   gap: 0px;
-  opacity: 0px;
 } */
 .img-card {
   position: relative;
@@ -483,8 +453,6 @@
   top: 100px;
   max-width: 1328.12px;
   height: 178.32px;
-  gap: 0px;
-  opacity: 0px;
   left: 100px;
 }
 
@@ -496,7 +464,6 @@
   top: 100px;
   left: 43.81px;
   gap: 0px;
-  opacity: 0px;
   bottom: 20px;
 }
 
@@ -515,7 +482,6 @@
   top: 25px;
   left: 43.81px;
   gap: 12.45px;
-  opacity: 0px;
   display: flex;
   justify-content: space-around;
 }
@@ -527,7 +493,6 @@
   gap: 15.59px;
   border-radius: 5.61px 0px 0px 0px;
   border: 0.5px 0px 0px 0px;
-  opacity: 0px;
   font-size: 13px;
   border: 0.5px solid #D9D9D9;
 }

@@ -2,7 +2,6 @@ import React from "react";
 import img1 from './images/Group34165.png'
 import searchimg from './images/search.png'
 import img4 from './images/india.png'
-import img6 from './images/Vector.png'
 import img7 from './images/Vector1.png'
 import img8 from './images/link5.png'
 import img9 from './images/link4.png'
@@ -45,7 +44,7 @@ const UI = () => {
                 </div>
                 <hr />
                 <div className="topbar d-flex justify-content-between align-items-center">
-                    <span style={{ left: '50px', position: 'relative' }}><img src={img6} className="img6" alt="NA" /></span>
+                    <div style={{ left: '50px', position: 'relative' }}><i class="bi bi-list text-dark menu-icon"></i></div>
                     {/* <div className="topbar-items"> */}
                     <ul className="topbar-ul">
                         <li className="menu-list"><a href="/" className="menu-list active">Home</a></li>
