@@ -51,7 +51,7 @@
   text-align: left;
   position: relative;
   /* color: #B0B0B0; */
-color: red;
+  color: red;
 }
 
 .img3 {
@@ -73,6 +73,12 @@ color: red;
   color: red !important;
 }
 
+.subscribe-btn {
+  padding: 10px 10px;
+}
+.sign{
+  border: #616161;
+}
 .img4 {
   width: 284.65px;
   height: 76.23px;
@@ -232,7 +238,9 @@ color: red;
   margin-top: 5px;
 }
 
-.img8, .img9, .img10 {
+.img8,
+.img9,
+.img10 {
   max-width: 100px;
   height: auto;
 }
@@ -427,6 +435,7 @@ color: red;
   font-weight: bold;
   color: #000;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .web-img {
@@ -488,16 +497,15 @@ color: red;
   left: 43.81px;
   gap: 0px;
   opacity: 0px;
-bottom: 20px;
+  bottom: 20px;
 }
 
 .trending-text {
-  height: 24.82px;
-  padding: 0px;
-  gap: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
   text-align: left;
-  opacity: 0px;
-  margin-left: 40px;
 }
 
 .trending-list {

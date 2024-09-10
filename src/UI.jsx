@@ -2,7 +2,6 @@ import React from "react";
 import img1 from './images/Group34165.png'
 import searchimg from './images/search.png'
 import img4 from './images/india.png'
-import img5 from './images/Group19057.png'
 import img6 from './images/Vector.png'
 import img7 from './images/Vector1.png'
 import img8 from './images/link5.png'
@@ -23,6 +22,8 @@ import grp from './images/Group1019.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+
 import './App.css';
 const UI = () => {
     return (
@@ -33,7 +34,12 @@ const UI = () => {
                     <span className="text-start" style={{ left: '20px', position: 'relative' }}><img src={searchimg} className="searchimg" alt="NA" />&nbsp;
                         <span className="img3">Search here...</span></span>
                     <img src={img4} className="img4" alt="NA" />
-                    <img src={img5} alt="NA" className="img5" />
+                    <div>
+                    <Button variant="danger" className="subscribe-btn">SUBSCRIBE</Button>&nbsp;
+                    <Button variant="outline-dark" className="subscribe-btn sign">SIGN IN</Button>
+                    </div>
+                    
+                    {/* <img src={img5} alt="NA" className="img5" /> */}
                 </div>
                 <hr />
                 <div className="topbar d-flex justify-content-between align-items-center">
