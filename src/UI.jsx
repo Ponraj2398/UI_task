@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from './images/Group34165.png'
-import img2 from './images/search.png'
+import searchimg from './images/search.png'
 import img4 from './images/india.png'
 import img5 from './images/Group19057.png'
 import img6 from './images/Vector.png'
@@ -30,7 +30,7 @@ const UI = () => {
             <div style={{ width: '1450px', height: '388px' }}>
                 <div><img src={img1} width={'970px'} height={'250px'} style={{ left: '240px' }} alt="Not found" /></div>
                 <div className="d-flex justify-content-between align-items-center">
-                    <span className="text-start" style={{ left: '20px', position: 'relative' }}><img src={img2} className="img2" alt="NA" />&nbsp;
+                    <span className="text-start" style={{ left: '20px', position: 'relative' }}><img src={searchimg} className="searchimg" alt="NA" />&nbsp;
                         <span className="img3">Search here...</span></span>
                     <img src={img4} className="img4" alt="NA" />
                     <img src={img5} alt="NA" className="img5" />
