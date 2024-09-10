@@ -50,8 +50,8 @@
   line-height: 14.12px;
   text-align: left;
   position: relative;
-  color: #B0B0B0;
-
+  /* color: #B0B0B0; */
+color: red;
 }
 
 .img3 {
